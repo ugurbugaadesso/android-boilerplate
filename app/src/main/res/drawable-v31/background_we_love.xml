@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:bottom="1dp"
+        android:drawable="@drawable/ic_we"
+        android:gravity="center"/>
+
+    <item
+        android:left="40dp"
+        android:bottom="7dp"
+        android:drawable="@drawable/ic_hearth"
+        android:gravity="center"/>
+
+</layer-list>

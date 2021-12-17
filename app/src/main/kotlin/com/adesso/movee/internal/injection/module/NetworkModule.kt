@@ -56,7 +56,7 @@ internal class NetworkModule {
     @Provides
     @Singleton
     fun provideChuckerInterceptor(@ApplicationContext context: Context) =
-        ChuckerInterceptor(context)
+        ChuckerInterceptor.Builder(context).build()
 
     @Provides
     @Singleton

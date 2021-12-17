@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Splash">
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:background">@drawable/background_splash</item>
+
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_movee</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/background_we_love</item>
+        <item name="android:windowSplashScreenBackground">@color/vibrant_blue</item>
+    </style>
+</resources>

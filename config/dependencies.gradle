@@ -2,13 +2,13 @@ ext {
 
     compiler = [
             java  : JavaVersion.VERSION_1_8,
-            kotlin: '1.4.21'
+            kotlin: '1.6.10'
     ]
 
     android = [
             minSdk    : 21,
-            targetSdk : 29,
-            compileSdk: 29
+            targetSdk : 31,
+            compileSdk: 31
     ]
 
     build = [
@@ -23,32 +23,32 @@ ext {
     ]
 
     version = [
-            gradle               : '4.1.1',
-            hilt                 : '2.38.1',
+            gradle               : '7.0.4',
+            hilt                 : '2.40.5',
             retrofit             : '2.9.0',
-            okhttp               : '4.9.0',
+            okhttp               : '4.9.3',
             moshi                : '1.11.0',
             moshiLazyAdapter     : '2.2',
-            constraintLayout     : '2.0.4',
-            navigation           : '2.3.2',
-            lifecycle            : '2.2.0',
-            androidKtx           : '1.3.2',
-            coroutines           : '1.4.2',
-            chucker              : '3.4.0',
-            gson                 : '2.8.2',
-            glide                : '4.11.0',
-            ok2curl              : '0.6.0',
-            material             : '1.2.1',
+            constraintLayout     : '2.1.2',
+            navigation           : '2.3.5',
+            lifecycle            : '2.4.0',
+            androidKtx           : '1.7.0',
+            coroutines           : '1.5.2',
+            chucker              : '3.5.2',
+            gson                 : '2.8.9',
+            glide                : '4.12.0',
+            ok2curl              : '0.7.0',
+            material             : '1.4.0',
             preference           : '1.1.1',
             viewPager2           : '1.0.0',
-            timber               : '4.7.1',
+            timber               : '5.0.1',
             spotless             : '5.8.2',
             detekt               : '1.12.0',
             benManesVersion      : '0.33.0',
             jacoco               : '0.8.6',
             junitJacocoPlugin    : '0.16.0',
-            ktlint               : '0.36.0',
-            jltschKtlintPlugin   : '9.4.1',
+            ktlint               : '0.38.0',
+            jltschKtlintPlugin   : '10.2.0',
             jUnit                : '4.13',
             espresso             : '3.0.+',
             robolectric          : '4.4',
@@ -76,7 +76,6 @@ ext {
 
             lifecycle = [
                     "androidx.lifecycle:lifecycle-runtime-ktx:$version.lifecycle",
-                    "androidx.lifecycle:lifecycle-extensions:$version.lifecycle",
                     "androidx.lifecycle:lifecycle-viewmodel-ktx:$version.lifecycle",
                     "androidx.lifecycle:lifecycle-livedata-ktx:$version.lifecycle",
             ],
